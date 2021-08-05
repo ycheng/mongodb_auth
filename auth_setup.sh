@@ -23,7 +23,7 @@ db.createUser(
 
 db.createUser(
   {
-    user: "$DB_NAME",
+    user: "$DB_USER",
     pwd: "$DB_PWD", // or cleartext password
     roles: [ { role: "read", db: "$DB_NAME" } ]
   }
